@@ -24,7 +24,7 @@
   <meta name="description" content="Резюме Всеволода html - программиста знающего html, css, php, python и js!">
 </head>
 <body>
-   <div class="loader">
+   <div class="loader" id="load">
       <span></span>
       <span></span>
       <span></span>
@@ -33,7 +33,7 @@
    <script>
   document.body.onload = function() {
   setTimeout(function() {
-    var preloader = document.getElementById('load');
+      var preloader = document.getElementById('load');
       preloader.remove();
   }, 100);
 }
