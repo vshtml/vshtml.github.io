@@ -165,7 +165,7 @@ function soundClick() {
 				divElement.scrollTop = 9999;
 		}
 		function ip1() {
-				terminal.append("You ip " + "[Object]" + "!\n");
+				terminal.append("You ip " + ip + "!\n");
 				divElement.scrollTop = 9999;
 		}
 		function redactor() {
