@@ -686,7 +686,7 @@ input {
 	margin-top: 20px;
 }
 #btn_modal_window:hover {
-	background: rgb(170, 184, 230);
+	background: #eed245;
 	color: white;
 }
 /* Media Queries */
